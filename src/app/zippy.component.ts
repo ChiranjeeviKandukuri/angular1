@@ -7,7 +7,7 @@ import {Component,EventEmitter,Output} from '@angular/core'
     <div (click)="toggle()">Toggle</div>Hi<br>
     <div [hidden]="!visible">
       <ng-content></ng-content>
-    </div>
+      </div>
   </div>`})
 
 export class ZippyComponent {
